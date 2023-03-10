@@ -16,7 +16,7 @@ app.use('/', Routers);
 const PORT = process.env.PORT || 8000;
 const DB_USERNAME = process.env.DB_USERNAME;
 const DB_PASSWORD = process.env.DB_PASSWORD;
-const MONGODB_URI = process.env.MONGODB_URI || `mongodb+srv://${DB_USERNAME}:${DB_PASSWORD}@test4db.geghvef.mongodb.net/?retryWrites=true&w=majority`;
+const MONGODB_URI = process.env.MONGODB_URI || `mongodb+srv://${DB_USERNAME}:${DB_PASSWORD}@test5db.kwoxghj.mongodb.net/?retryWrites=true&w=majority`;
 
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
